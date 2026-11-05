@@ -1,0 +1,35 @@
+<p>Welcome {{ name }}</p>
+
+<h2>{{ age }}</h2>
+
+
+
+<button (click)="changeName()">ok</button>
+
+<!-- one way binding -->
+<!-- event dinding -->
+<!-- two way binding -->
+
+
+
+<input type="text" [(ngModel)]="userName">  
+
+<h1>{{userName}}</h1>
+
+
+
+<input type="text" [(ngModel)]="search">  
+<button (click)="ShowChanges()">ShowChanges</button>
+<button (click)="clear()">Clear</button>
+
+<h1>{{showSearch}}</h1>
+
+
+
+<br>
+<hr>
+<h2>{{price}}</h2>
+  <span>sale 30%</span>
+<h3>after sale {{priceAfterSale}}</h3>
+
+  <!-- rame -->
